@@ -2533,7 +2533,7 @@ figcaption {
 .display-1._1 {
   margin-bottom: 5%;
   font-size: 120px;
-  font-weight: 900;
+  font-weight: 700;
   text-align: left;
 }
 
@@ -2554,7 +2554,7 @@ figcaption {
   margin-bottom: 0px;
   font-size: 80px;
   line-height: 1.1;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -3023,6 +3023,7 @@ figcaption {
   position: sticky;
   top: 0px;
   z-index: 900;
+  background-color: #2b2d42;
 }
 
 .button-line-absolute {
@@ -4949,7 +4950,7 @@ figcaption {
 }
 
 .heading {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .grid {
@@ -5941,6 +5942,8 @@ figcaption {
 
   .grid-2-columns._3 {
     grid-column-gap: 0px;
+    -ms-grid-columns: 2fr 0.75fr;
+    grid-template-columns: 2fr 0.75fr;
   }
 
   .go-top-overlay {
@@ -6083,7 +6086,7 @@ figcaption {
   }
 
   .heading {
-    text-align: center;
+    text-align: left;
   }
 
   .image {
